@@ -20,6 +20,7 @@ class Singleton private constructor(private val value: String) {
 fun main() {
     val a = Singleton.getInstance("a")
     val b = Singleton.getInstance("b")
+
     println(a.getValue())
     println(b.getValue())
 }
